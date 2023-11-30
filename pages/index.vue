@@ -18,7 +18,7 @@
     </div>
     <div class="d-flex justify-center">
       <div style="max-width:500px">
-        <v-data-table :search="search" :headers="headers" :items="items"></v-data-table>
+        <v-data-table :search="search" :headers="headers" :items="items" disable-sort mobile-breakpoint="0"></v-data-table>
       </div>
     </div>
   </div>
@@ -26,8 +26,6 @@
 
 <style>
 .pageLayoutBg {
-  background:url('/bg.jpg');
-  background-size: cover;
   min-height: 100vh;
 }
 </style>
